@@ -570,16 +570,14 @@ footer {
     left: 0;
     top: 0;
     overflow: hidden;
-    background: #e41c2d;
+    background: #000000;
 }
 
 .slider .video-bg video {
     min-height: 100%;
     min-width: 100%;
     float: left;
-    mix-blend-mode: hard-light;
-    -webkit-filter: grayscale(100%) contrast(1);
-    filter: grayscale(100%) contrast(0.8);
+    mix-blend-mode: normal;
 }
 
 .slider .video-bg:after {
@@ -589,7 +587,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #1d3162;
+    background-color: #000;
     mix-blend-mode: lighten;
 }
 
