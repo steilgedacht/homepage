@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
-    <title>Benjamin Bergmann</title>
+    <title>Benjamin Bergmann | Creative Artist</title>
     <meta name="author" content="Themezinho">
     <meta name="description" content="Anchor | Freelancer & Creative Agency Portfolio">
     <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css">
@@ -46,9 +46,9 @@
 <body>
     <div class="preloader"> <img src="images/preloader.gif" alt="Image">
         <ul class="text-rotater">
-            <li>Cool dass du da bist!</li>
-            <li>Gleich fertig!</li>
-            <li>Bin gleich soweit!</li>
+            <li>Hereinspaziert!</li>
+            <li>Habs gleich!</li>
+            <li>Komme schon!</li>
         </ul>
     </div>
     <!-- end preloader -->
@@ -56,23 +56,8 @@
     <!-- end transition-overlay -->
     <main>
         <ul class="hamburger-navigation">
-            <li><a href="index.html">Home</a>
-                <ul class="dropdown">
-                    <li><a href="index-video.html">VIDEO BG</a></li>
-                    <li><a href="index-mouse-split.html">MOUSE SPLIT</a></li>
-                    <li><a href="index-animation.html">ANIMATION</a></li>
-                </ul>
-            </li>
-            <li><a href="anchor.html">Anchor</a> </li>
-            <li><a href="showcase-four-cols.html">Showcase</a>
-                <ul class="dropdown">
-                    <li><a href="showcase-two-cols.html">TWO COLS</a></li>
-                    <li><a href="showcase-three-cols.html">THREE COLS</a></li>
-                    <li><a href="showcase-four-cols.html">FOUR COLS</a></li>
-                    <li><a href="showcase-five-cols.html">FIVE COLS</a></li>
-                </ul>
-            </li>
-            <li><a href="journal.html">Journal<span>BETA</span></a> </li>
+            <li><a href="index.html">Willkommen!</a></li>
+            <li><a href="showcase.html">Galerie</a></li>
             <li><a href="say-hello.html">Say Hello</a> </li>
         </ul>
         <!-- end hamburger-navigation -->
@@ -84,7 +69,7 @@
         <header class="header">
             <div class="logo"><img src="images/logo.png" alt="Image"></div>
             <!-- end logo -->
-            <span class="phone">steilgedacht@gmail.com</span>
+            <span class="phone">t: +380 83 857 5 577</span>
             <div class="hamburger" id="hamburger">
                 <div class="hamburger__line hamburger__line--01">
                     <div class="hamburger__line-in hamburger__line-in--01"></div>
@@ -105,6 +90,11 @@
             <!-- end hamburger -->
             <div class="equalizer"> <span></span> <span></span> <span></span> <span></span> </div>
             <!-- end equalizer -->
+
+            <ul class="language">
+                <li><a href="#">EN</a></li>
+                <li><a href="#">RU</a></li>
+            </ul>
         </header>
         <ul class="social-bar">
             <li><a href="https://www.instagram.com/steilgedacht/" target="_blank">Instagram</a></li>
@@ -112,9 +102,13 @@
             <li><a href="https://www.youtube.com/channel/UCdENlZ_3diPPFJ3zuIJUC7w" target="_blank">YouTube</a></li>
         </ul>
         <section class="slider">
+            <div class="video-bg">
+                <video src="https://www.youtube.com/watch?v=e7AHmqYC8Sc" loop muted autoplay></video>
+            </div>
+            <!-- end video -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide bg-image" data-background="images/hero1.jpg" data-stellar-background-ratio="0.5">
+                    <div class="swiper-slide">
                         <div class="inner">
                             <h5 data-swiper-parallax="-600">CUSTOM ELEMENTS</h5>
                             <h2 data-swiper-parallax="-400">Being a part of our social </h2>
@@ -129,7 +123,7 @@
                         <!-- end inner -->
                     </div>
                     <!-- end swiper-slide -->
-                    <div class="swiper-slide bg-image" data-background="images/hero2.jpg" data-stellar-background-ratio="0.5">
+                    <div class="swiper-slide">
                         <div class="inner">
                             <h5 data-swiper-parallax="-600">USER INTERFACE</h5>
                             <h2 data-swiper-parallax="-400">Custom design for users</h2>
@@ -138,10 +132,10 @@
                         <!-- end inner -->
                     </div>
                     <!-- end swiper-slide -->
-                    <div class="swiper-slide bg-image" data-background="images/hero3.jpg" data-stellar-background-ratio="0.5">
+                    <div class="swiper-slide">
                         <div class="inner">
                             <h5 data-swiper-parallax="-600">EASY TO USE</h5>
-                            <h2 data-swiper-parallax="-400">Setting good admin system </h2>
+                            <h2 data-swiper-parallax="-400">Setting easy admin system </h2>
                             <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
                             <a href="#" class="link">DISCOVER NOW</a> </div>
                         <!-- end inner -->
@@ -155,7 +149,9 @@
                 <span class="swiper-button-line"></span>
                 <div class="swiper-button-next"><span>NEXT</span><img src="images/arrow-right.svg" alt="Image"></div>
             </div>
+
             <!-- end swiper-container -->
+
             <div class="scroll-down"><span></span></div>
         </section>
         <!-- end slider -->
@@ -166,7 +162,7 @@
                 <div class="grid-item-double">
                     <figure class="reveal-effect se2-white wow perspective-box"> <img src="images/works01.jpg" alt="Image">
                         <figcaption>
-                            <a href="project-detail.html">
+                            <a data-fancybox="gallery" href="images/works01.jpg">
                                 <div class="bg-color" data-background="#2095f4"></div>
                                 <!-- end bg-color -->
                                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
@@ -180,7 +176,7 @@
                 <div class="grid-item-double">
                     <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works02.jpg" alt="Image">
                         <figcaption>
-                            <a href="project-detail.html">
+                            <a data-fancybox="gallery" href="images/works02.jpg">
                                 <div class="bg-color" data-background="#ffc509"></div>
                                 <!-- end bg-color -->
                                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
@@ -194,7 +190,7 @@
                 <div class="grid-item">
                     <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works03.jpg" alt="Image">
                         <figcaption>
-                            <a href="project-detail.html">
+                            <a data-fancybox="gallery" href="images/works03.jpg">
                                 <div class="bg-color" data-background="#6dd7a9"></div>
                                 <!-- end bg-color -->
                                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
@@ -208,7 +204,7 @@
                 <div class="grid-item">
                     <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works04.jpg" alt="Image">
                         <figcaption>
-                            <a href="project-detail.html">
+                            <a data-fancybox="gallery" href="images/works04.jpg">
                                 <div class="bg-color" data-background="#2d2d2f"></div>
                                 <!-- end bg-color -->
                                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
@@ -222,7 +218,7 @@
                 <div class="grid-item">
                     <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works06.jpg" alt="Image">
                         <figcaption>
-                            <a href="project-detail.html">
+                            <a data-fancybox="gallery" href="images/works06.jpg">
                                 <div class="bg-color" data-background="#fec520"></div>
                                 <!-- end bg-color -->
                                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
@@ -236,7 +232,7 @@
                 <div class="grid-item-double">
                     <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works05.jpg" alt="Image">
                         <figcaption>
-                            <a href="project-detail.html">
+                            <a data-fancybox="gallery" href="images/works05.jpg">
                                 <div class="bg-color" data-background="#9f7cb2"></div>
                                 <!-- end bg-color -->
                                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
